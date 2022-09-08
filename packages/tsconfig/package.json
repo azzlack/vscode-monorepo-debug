@@ -1,0 +1,17 @@
+{
+  "name": "tsconfig",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "files": [
+    "base.json",
+    "nextjs.json",
+    "react-library.json"
+  ],
+  "peerDependencies": {
+    "typescript": "^4.8.2"
+  },
+  "dependencies": {
+    "typescript": "^4.8.2"
+  }
+}

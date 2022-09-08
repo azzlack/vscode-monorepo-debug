@@ -1,0 +1,23 @@
+{
+  "name": "lib",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "source": "./index.ts",
+  "files": ["dist", "src", "index.ts"],
+  "scripts": {
+    "build": "tsup --treeshake",
+    "dev": "tsup --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "tsconfig": "workspace:^1.0.0",
+    "tsup": "^6.2.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
